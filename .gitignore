@@ -115,6 +115,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+Scripts/
+pyvenv.cfg/
 
 migrations/
 # Spyder project settings
