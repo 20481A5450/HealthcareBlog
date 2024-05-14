@@ -5,8 +5,7 @@
 <div class="container-fluid px-3">
     <div class="row min-vh-100">
       <div class="col-md-8 col-lg-6 col-xl-5 d-flex align-items-center">
-        <div class="w-100 py-5 px-md-5 px-xl-6 position-relative">
-         
+        <div class="w-100 py-5 px-md-5 px-xl-6 position-relative"> 
           <div class="form-validate">
             <div class="form-group">
               <label class="form-label" for="loginUsername"> Email Address</label>
@@ -23,9 +22,13 @@
             
             <!-- Submit-->
             <button class="btn btn-lg btn-block btn-primary" onclick="register()">Sign in</button>
-           
+            <p class="text-center">
+              <small class="text-muted text-center">
+                  Do you  have an account yet?
+                  <a href="{% url 'login_view' %}">Sign In</a>
+              </small>
+            </p>    
           </div>
-          
         </div>
       </div>
       <div class="col-md-4 col-lg-6 col-xl-7 d-none d-md-block">
